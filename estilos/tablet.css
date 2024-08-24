@@ -47,6 +47,10 @@ p{
    
 }
 
+.content .name {
+    font-size: 40px;
+  }
+
 .links-uteis > li{
     font-size: 1.2em;
     margin: 20px 0px;

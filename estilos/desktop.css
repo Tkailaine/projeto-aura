@@ -104,6 +104,12 @@ p{
   margin-top: 50px;
 }
 
+
+.content .name {
+  font-size: 50px;
+
+}
+
 footer{
   height: 420px;
 }

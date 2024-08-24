@@ -94,6 +94,11 @@ p{
   font-size: 1.3em;
 }
 
+.content .name {
+  font-size: 50px;
+
+}
+
 .ar-livre{
   flex-direction: row-reverse;
   flex-wrap: wrap;
