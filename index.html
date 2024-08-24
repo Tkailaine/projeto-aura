@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aura</title>
+    <link rel="stylesheet" href="./estilos/style.css" media="all">
+    <link rel="stylesheet" href="./estilos/telasmuitopequenas.css" media="screen and (max-width:400px)">
+    <link rel="stylesheet" href="./estilos/tablet.css" media="screen and (min-width:600px) and (max-width:874px)">
+    <link rel="stylesheet" href="./estilos/desktop.css" media="screen and (min-width:874px) and (max-width:1024px)">
+    <link rel="stylesheet" href="./estilos/tv.css" media="screen and (min-width:1024px)">
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" /> <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+</head>
+    
+</head>
+<body>
+ 
+  <header id="inicio">
+    <nav>
+        <div class="logo">
+            <a href="#"><img src="imagens/Logo.png" alt="Logo Aura"></a>
+        </div>
+
+        <div class="imenu">
+            <span class="linha"></span>
+            <span class="linha"></span>
+            <span class="linha"></span>
+        </div>
+
+        <div class="itens desktop">
+            <div><a href="#inicio" target="_self">Home</a></div>
+            <div><a href="#sessao1" target="_self">Sobre</a></div>
+            <div><a href="#acomodacoes" target="_self">Nossa acomodação</a></div>
+           <div><a href="#spa" target="_self">Spa Aura</a></div>
+            <div><a href="#atracoes" target="_self">Atrações</a></div>
+            <div><a href="#galeria-ft" target="_self">Galeria</a></div>
+        </div>
+
+        <div class="menu-lateral">
+            <div class="close-btn"> &times;</div>
+            <ul class=" lateral">
+                <li><a href="#inicio" target="_self">Home</a> 
+                <li><a href="#sessao1" target="_self">Sobre</a>
+                <li><a href="#acomodacoes" target="_self">Nossas <br>acomodação</a>
+                <li><a href="#spa" target="_self">Spa Aura</a>
+                <li><a href="#atracoes" target="_self">Atrações</a>
+                <li><a href="#galeria-ft" target="_self">Galeria</a>
+            </ul>
+        </div>
+
+       
+        <div>
+            <a href="#"><input type="button" value="Reservas" class="btn-contato"></a>
+        </div>   
+    </nav>
+</header>
+
+    
+    
+    <main>
+        
+        <div class="bandeira">
+            <h1>Seu refúgio na natureza</h1>
+            <a href="#acomodacoes" target=""><input class="btn-servicos" type="button" value="Hospedagem"></a>
+            <a href="#" target=""><input class="btn-contato2" type="button" value="Reservas" ></a>
+            
+        </div>
+
+        <section class="sessao1" id="sessao1">
+            <div class="sobre">
+                <h1>Sobre</h1>
+                           <div class="sobre-conteudo ">
+                    <p>um refúgio encantador situado no coração da natureza. Nossas acomodações elegantes e confortáveis foram cuidadosamente projetadas para oferecer uma experiência única de conexão com a natureza. Imagine acordar com o som dos pássaros, respirar o ar puro das montanhas e se desconectar do ritmo frenético da vida urbana. No Aura, você encontrará trilhas serenas, paisagens deslumbrantes e atividades revitalizantes, tudo isso em um ambiente que promove paz e tranquilidade. Venha se hospedar conosco e redescubra o prazer de viver em harmonia com a natureza.</p>
+                    <div class="imagem chale animated-element"></div>
+                </div>
+            </div>
+
+            <div class="acomodacoes" id="acomodacoes">
+                <h1 class="titulo-right">Nossa acomodação</h1>
+                <!-- Galeria com Lightbox -->
+                <section id="gallery">
+                  <div class="gallery">
+                    <a href="#img1">
+                      <div class="image-container animated-element">
+                        <img src="imagens/quarto.jpg" alt="Chalé 1">
+                      </div>
+                    </a>
+                    <a href="#img2">
+                      <div class="image-container animated-element">
+                        <img src="imagens/area.jpg" alt="Chalé 2">
+                      </div>
+                    </a>
+                    <a href="#img3">
+                      <div class="image-container animated-element">
+                        <img src="imagens/banheiro.jpg" alt="Interior 1">
+                      </div>
+                      <a href="#img4">
+                          <div class="image-container animated-element">
+                            <img src="imagens/rede.jpg" alt="Interior 1">
+                          </div>
+                      <a href="#img5">
+                          <div class="image-container animated-element">
+                              <img src="imagens/cozinha.jpg" alt="Interior 1">
+                          </div>
+                      <a href="#img6">
+                          <div class="image-container animated-element">
+                              <img src="imagens/sala.jpg" alt="Interior 1">
+                          </div>
+                    </a>
+                    <!-- Adicione mais imagens aqui -->
+                  </div>
+
+                  <!-- Lightbox -->
+                  <div id="img1" class="lightbox">
+                    <a href="#_" class="close">&times;</a>
+                    <img src="imagens/quarto.jpg" alt="Chalé 1">
+                  </div>
+                  <div id="img2" class="lightbox">
+                    <a href="#_" class="close">&times;</a>
+                    <img src="imagens/area.jpg" alt="Chalé 2">
+                  </div>
+                  <div id="img3" class="lightbox">
+                    <a href="#_" class="close">&times;</a>
+                    <img src="imagens/banheiro.jpg" alt="Interior 1">
+                  </div>
+                  <div id="img4" class="lightbox">
+                      <a href="#_" class="close">&times;</a>
+                      <img src="imagens/rede.jpg" alt="Interior 1">
+                  </div>
+                  <div id="img5" class="lightbox">
+                  <a href="#_" class="close">&times;</a>
+                  <img src="imagens/cozinha.jpg" alt="Interior 1">
+                  </div>
+                  <div id="img6" class="lightbox">
+                  <a href="#_" class="close">&times;</a>
+                  <img src="imagens/sala.jpg" alt="Interior 1">
+                  </div>
+                  <!-- Adicione mais lightboxes aqui -->
+                </section>
+            </div>
+            
+            <div class="experiencia">
+              <div class="card-experiencia animated-element">
+                <h1>Conforto e conveniência</h1>
+                <ul>
+                  <li>• Cama King Size</li>
+                  <li>• Ar condicionado</li>
+                  <li>• Wifi gratuito</li>
+                  <li>• Smart TV com streaming</li>
+                </ul>
+              </div> 
+              
+              <div class="card-experiencia animated-element">
+                <h1>Instalações de cozinha</h1>
+                <ul>
+                  <li>• Frigobar</li>
+                  <li>• Cafeteira</li>
+                  <li>• Micro-ondas</li>
+                  <li>• Utensílios de cozinha e copos</li>
+                </ul>
+              </div>
+
+              <div class="card-experiencia animated-element">
+                <h1>Conexão com a natureza</h1>
+                <ul>
+                  <li>• Varanda privativa com vista panorâmica</li>
+                  <li>• Área de estar ao ar livre</li>
+                  <li>• Redes</li>
+                  <li>• Piscina privativa</li>
+                </ul>
+              </div>
+
+              <div class="card-experiencia animated-element">
+                <h1>Entretenimento e lazer</h1>
+                <ul>
+                  <li>• Jogos de tabuleiro e cartas</li>
+                  <li>• Mapa de trilhas locais e guia de atividades</li>
+                  <li>• Atrações radicais</li>
+                </ul>
+              </div>
+
+             
+            </div>
+        </section>
+        <section class="sessao2" id="spa">
+            <h1 style="color:white">Aproveite nosso spa</h1>
+            
+            <div class="destaques-spa">
+              <ul>
+                <li class="intro-spa">O Spa Aura oferece uma experiência única de relaxamento e revitalização, onde o luxo e a natureza se encontram. <strong>cada detalhe é pensado para proporcionar uma jornada de bem-estar e renovação em plena harmonia com a natureza.</strong></li>
+                <h2>Destaques do Spa:</h2>
+                <li><strong>Tratamentos Revitalizantes:</strong> Massagens personalizadas e tratamentos faciais com ingredientes naturais, projetados para renovar corpo e mente.</li>
+                <li><strong>Espaços de Relaxamento:</strong> Sauna aromática e piscina aquecida com vista para a natureza, perfeitas para momentos de tranquilidade.</li>
+                </ul>
+                <div class="imagem spa animated-element"></div></div>
+
+                <div class="ar-livre">
+                  <ul>
+                    <h2>Sinta a natureza</h2>
+                    <li><strong>Experiências ao Ar Livre:</strong> Massagens sob gazebos cercados pela natureza e banheiras de hidromassagem ao ar livre, proporcionando uma conexão profunda com o ambiente.</li>
+                    <li><strong>Programas de Bem-Estar:</strong> Sessões de yoga e meditação, integradas às terapias naturais, para restaurar o equilíbrio e aliviar o estresse.</li>
+                    </ul>
+                  <div class="imagem yoga animated-element"></div>
+                  </div>
+        </section>
+
+        <section class="sessao3" id="atracoes">
+        <div class="container">
+      
+        <div class="slide">
+        
+          <div class="item" style="background-image: url(imagens/pesca.jpg);">
+            <div class="content">
+              <div class="name">Pescaria</div>
+              <div class="des">Relaxe e pesque grandes peixes!</div>
+              <button>Nos contate</button>
+            </div>
+          </div>
+          <div class="item" style="background-image: url(imagens/trilhas.jpg);">
+            <div class="content">
+              <div class="name">Trilha</div>
+              <div class="des">Aproveite nossa trilha <br>ecológica!</div>
+              <button>Nos contate</button>
+            </div>
+          </div>
+          <div class="item" style="background-image: url(imagens/bicicleta.jpg);">
+            <div class="content">
+              <div class="name">Ciclismo</div>
+              <div class="des">Explore a vista com adrenalina!</div>
+              <button>Nos contate</button>
+            </div>
+          </div>
+          <div class="item" style="background-image: url(imagens/quadriciclo.jpg);">
+            <div class="content">
+              <div class="name titulo-quadriciclo">Pilote</div>
+              <div class="des">Aventure-se com nossos quadriciclos ao ar livre</div>
+              <button>Nos contate</button>
+            </div>
+          </div>
+          <div class="item" style="background-image: url(imagens/barco.jpg);">
+            <div class="content">
+              <div class="name">Barco</div>
+              <div class="des">Passeio de barco em família no lago!</div>
+              <button>Nos contate</button>
+            </div>
+          </div>
+          
+          
+        </div>
+      
+        <div class="button">
+          <button class="prev"><i class="fa-solid fa-arrow-left"></i></button>
+          <button class="next"><i class="fa-solid fa-arrow-right"></i></button>
+        </div>
+      
+      </div>
+
+        </section>
+
+         <section class="sessao4" id="galeria-ft">
+          <h1 class="titulo-right">Galeria</h1>
+           <!-- Galeria com Lightbox -->
+               <section id="unique-gallery">
+                 <div class="unique-gallery-grid animated-element ">
+            <a href="#unique-img1">
+                <div class="unique-image-container">
+                    <img src="imagens/piscina.jpg" alt="Piscina">
+                </div>
+            </a>
+            <a href="#unique-img2">
+                <div class="unique-image-container">
+                    <img src="imagens/casal.jpg" alt="Casal sentados">
+                </div>
+            </a>
+            <a href="#unique-img3">
+                <div class="unique-image-container">
+                    <img src="imagens/piscina-mulher.jpg" alt="Piscina privativa com mulher ao lado">
+                </div>
+            </a>
+            <a href="#unique-img4">
+                <div class="unique-image-container">
+                    <img src="imagens/fogueira.jpg" alt="àrea de fogueira">
+                </div>
+            </a>
+            <a href="#unique-img5">
+                <div class="unique-image-container">
+                    <img src="imagens/casal2.jpg" alt="Casal sentado">
+                </div>
+            </a>
+            <a href="#unique-img6">
+                <div class="unique-image-container">
+                    <img src="imagens/piscina-cafe.jpg" alt="Piscina com café">
+                </div>
+            </a>
+            <a href="#unique-img7">
+              <div class="unique-image-container">
+                  <img src="imagens/vila.jpg" alt="Vista de fora da casa">
+              </div>
+          </a>
+          <a href="#unique-img8">
+            <div class="unique-image-container">
+                <img src="imagens/trilha.jpg" alt="trilha">
+            </div>
+        </a>
+        <a href="#unique-img9">
+          <div class="unique-image-container">
+              <img src="imagens/pescando-pier.jpg" alt="Homem pescando">
+          </div>
+        </a>
+        <a href="#unique-img10">
+          <div class="unique-image-container">
+              <img src="imagens/cafe.jpg" alt="café da manhã">
+          </div>
+        </a>
+            <!-- Adicione mais imagens aqui -->
+                 </div>
+           
+                 <!-- Lightbox -->
+                 <div id="unique-img1" class="unique-lightbox">
+            <a href="#_" class="unique-close">&times;</a>
+            <img src="imagens/piscina.jpg" alt="Piscina">
+                 </div>
+                 <div id="unique-img2" class="unique-lightbox">
+            <a href="#_" class="unique-close">&times;</a>
+            <img src="imagens/casal.jpg" alt="Casal sentado">
+                 </div>
+                 <div id="unique-img3" class="unique-lightbox">
+            <a href="#_" class="unique-close">&times;</a>
+            <img src="imagens/piscina-mulher.jpg" alt="Piscina privativa com mulher ao lado">
+                 </div>
+                 <div id="unique-img4" class="unique-lightbox">
+            <a href="#_" class="unique-close">&times;</a>
+            <img src="imagens/fogueira.jpg" alt="Área de fogueira">
+                 </div>
+                 <div id="unique-img5" class="unique-lightbox">
+            <a href="#_" class="unique-close">&times;</a>
+            <img src="imagens/casal2.jpg" alt="Casal sentado">
+                 </div>
+                 <div id="unique-img6" class="unique-lightbox">
+            <a href="#_" class="unique-close">&times;</a>
+            <img src="imagens/piscina-cafe.jpg" alt="Piscina com café">
+                 </div>
+            <div id="unique-img7" class="unique-lightbox">
+            <a href="#_" class="unique-close">&times;</a>
+            <img src="imagens/vila.jpg" alt="Vista frontal casa">
+              </div>
+            <div id="unique-img8" class="unique-lightbox">
+            <a href="#_" class="unique-close">&times;</a>
+            <img src="imagens/trilha.jpg" alt="Trilha">
+            </div>
+            <div id="unique-img9" class="unique-lightbox">
+              <a href="#_" class="unique-close">&times;</a>
+              <img src="imagens/pescando-pier.jpg" alt="Homem pescando">
+            </div>
+            <div id="unique-img10" class="unique-lightbox">
+              <a href="#_" class="unique-close">&times;</a>
+              <img src="imagens/cafe.jpg" alt="Café da manhã">
+            </div>
+                 <!-- Adicione mais lightboxes aqui -->
+             </section>
+         </section>
+
+         <footer> 
+        
+          <div class="sessao-footer">
+   
+           <div>
+                  <div>
+                   <img src="imagens/LOGO.png" style="width: 120px; margin-bottom:15px;" alt="Aura Logo"><h3>Contato</h3>
+                   <p>Endereço: Logadouro, 000 - xx</p>
+                   <p>Email: thaissakailaine.ti@gmail.com<br>Telefone: (11) 91325-5296</a></p>
+                   <div>
+                       <a href="#"><input type="button" style="background-color: #4A7C59; color: white;" value="Nos contate" class="btn-contato"></a>
+                   </div>
+                  </div>
+               
+           </div>
+   
+           <div>
+               
+               <h3>Links Úteis</h3>
+                   <ul class="links-uteis">
+                       <li><a href="#inicio" target="_self">Página Inicial</a></li>
+                       <li><a href="#atuacao" target="_self">Áreas de Atuação</a></li>
+                       <li><a href="#curriculo-sobre-mim" target="_self">Sobre mim</a></li>
+                       <li><a href="#relatos-clientes" target="_self">Relatos</a></li>
+                       <li> <a href="creditos.txt" download="creditos.txt">Baixar Arquivo com Créditos</a></li>
+                   </ul>
+           </div>
+          </div>
+   
+   
+          <span class="divisoria"></span>
+           <div style="text-align: center;">
+               &copy; Todos os direitos reservados. Desenvolvido por <a href="https://w.app/thaissakailaine" target="_blank" style="color: #055e09;">Thaissa.Kailaine</a>.
+           </div>
+       </footer>
+   
+        
+
+  <script src="script.js"></script>
+  
+        
+    </main>
+    
+</body>
+</html>

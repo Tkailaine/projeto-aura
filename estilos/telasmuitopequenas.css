@@ -1,0 +1,53 @@
+@charset "UTF-8";
+.imenu span {
+    display: block;
+    width: 20px;
+    height: 2px;
+    margin-bottom: 5px;
+    }
+    
+.bandeira{
+    background-position: right;
+}
+.casa{
+    height: 250px;
+    width: 250px;
+}
+
+.saudacoes> .txt> p{
+
+    width: 250px;
+    line-height: 1.6em;
+
+}
+
+.bandeira2{   
+    background-position:right;}
+   
+
+.bandeira2 > p{
+    width: 95%;
+    top:53.2%;
+    transform: translate(-50%,0%);
+    text-align: center;
+}
+
+.txt-missao{
+    margin-top: 10px;
+    width: 80%;
+    
+    margin: auto; 
+}
+
+
+.container {
+height: 700px;}
+
+.slide .item:nth-child(2) .content {
+display: block;
+width: 40%;
+  }
+
+.content .name {
+font-size: 30px;
+}

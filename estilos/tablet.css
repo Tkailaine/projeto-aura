@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+p{
+    font-size: 1.3em;
+  }
+  
+
+.casa{
+
+   
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 350;
+    width: 350px;
+  
+    
+
+}
+.slideshow-container {
+    display: none;}
+
+.dot{
+        display: none;
+    }
+   
+    
+.sessaoservicos{
+    display: flex;
+}
+
+.txt-missao{
+    width: 95%;
+    text-align: center;
+}
+
+.galeria{
+    display: none;
+}
+
+.ocultar2{
+    display: none;
+}
+
+.experiencia{
+    gap: 50px;
+   
+}
+
+.links-uteis > li{
+    font-size: 1.2em;
+    margin: 20px 0px;
+  }
+  

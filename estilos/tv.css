@@ -1,0 +1,125 @@
+@charset "UTF-8";
+html, body{
+  scroll-behavior: smooth;
+}
+.desktop{
+  display: flex;
+  list-style-type: none;
+}
+
+.imenu{
+  display: none;
+}
+.menu-lateral{
+  display:none;
+}
+
+header > nav > .itens  a{
+  font-size: 1.2em;
+  font-weight: 600;
+  display: block;
+  color: #225732;
+  text-decoration: none; 
+}
+
+header > nav > .itens a:hover{
+  background-color:var(--cor1); 
+  color: white;
+  transition-duration: 0.3s;
+  border-radius: 10px;
+  padding: 3px 5px;
+}
+
+header > nav > .itens{
+  display: flex;
+  align-items: center;
+  height: 30px;
+  gap: 35px;
+}
+
+h1{
+  margin: auto 5%;
+  padding: 25px 0px 10px 0px;
+
+}
+
+p{
+  font-size: 1.5em;
+}
+.sobre-conteudo{
+  gap: 0px;
+}
+
+.sobre-conteudo > p {
+  margin: auto 5%;
+  width: 50%;
+}
+
+
+.imagem{
+  width: 40%;
+  height: 300px ;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: auto;
+  border-radius: 15px 0px;
+
+}
+
+.experiencia{
+  width: 1200px;
+  margin: auto;
+
+}
+
+.sessao2{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  
+}
+
+.destaques-spa{
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 0px;
+  align-items: center;
+}
+
+.sessao2  ul{
+  width: 40%;
+  font-size: 1.3em;
+}
+
+.ar-livre{
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 0px;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.sessao-footer{
+  justify-content: start;
+  flex-direction: row;
+  gap: 50px;
+}
+
+.links-uteis > li{
+  font-size: 1.4em;
+  margin: 20px 0px;
+}
+
+
+
+
+@media (max-width:1195px){
+  .experiencia{
+    width: 920px;
+    gap: 50px
+  }
+}
